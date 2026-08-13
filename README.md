@@ -2,7 +2,7 @@
 
 A command-line tool to check a proxy's protocol support, anonymity level, type (residential / datacenter / mobile), exit IP info, and rough download speed — all in one command.
 
-[![CI](https://github.com/your-username/proxycheck-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/proxycheck-cli/actions)
+[![CI](https://github.com/bifrostnetworkcc/proxycheck-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/bifrostnetworkcc/proxycheck-cli/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 
@@ -24,7 +24,7 @@ A command-line tool to check a proxy's protocol support, anonymity level, type (
 ## Install
 
 ```bash
-git clone https://github.com/your-username/proxycheck-cli.git
+git clone https://github.com/bifrostnetworkcc/proxycheck-cli.git
 cd proxycheck-cli
 pip install -r requirements.txt
 ```
@@ -146,7 +146,7 @@ Initiated and maintained by the [BifrostNetwork](https://bifrostnetwork.cc/) tea
 ### 安装
 
 ```bash
-git clone https://github.com/your-username/proxycheck-cli.git
+git clone https://github.com/bifrostnetworkcc/proxycheck-cli.git
 cd proxycheck-cli
 pip install -r requirements.txt
 ```
