@@ -1,0 +1,18 @@
+[project]
+name = "proxycheck-cli"
+version = "0.1.0"
+description = "命令行代理质量检测工具:连通性、匿名等级、类型判断、出口IP信息与测速"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.31.0",
+    "PySocks>=1.7.1",
+]
+
+[project.scripts]
+proxycheck = "proxycheck.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
