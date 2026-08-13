@@ -2,7 +2,7 @@
 
 A command-line tool to check a proxy's protocol support, anonymity level, type (residential / datacenter / mobile), exit IP info, and rough download speed — all in one command.
 
-[![CI](https://github.com/bifrostnetworkcc/proxycheck-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/bifrostnetworkcc/proxycheck-cli/actions)
+[![CI](https://github.com/your-username/proxycheck-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/proxycheck-cli/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 
@@ -24,7 +24,7 @@ A command-line tool to check a proxy's protocol support, anonymity level, type (
 ## Install
 
 ```bash
-git clone https://github.com/bifrostnetworkcc/proxycheck-cli.git
+git clone https://github.com/your-username/proxycheck-cli.git
 cd proxycheck-cli
 pip install -r requirements.txt
 ```
@@ -36,6 +36,8 @@ pip install .
 ```
 
 ## Usage
+
+> If you only ran `pip install -r requirements.txt` (not `pip install .`), the `proxycheck` command isn't registered as an executable — run everything below as `python -m proxycheck.cli ...` instead. If you ran `pip install .`, the `proxycheck` command works directly as shown.
 
 ```bash
 proxycheck --host 1.2.3.4 --port 8080
@@ -146,7 +148,7 @@ Initiated and maintained by the [BifrostNetwork](https://bifrostnetwork.cc/) tea
 ### 安装
 
 ```bash
-git clone https://github.com/bifrostnetworkcc/proxycheck-cli.git
+git clone https://github.com/your-username/proxycheck-cli.git
 cd proxycheck-cli
 pip install -r requirements.txt
 ```
@@ -158,6 +160,8 @@ pip install .
 ```
 
 ### 使用
+
+> 如果你只跑了 `pip install -r requirements.txt`(没有 `pip install .`),`proxycheck` 这个命令不会被注册成可执行命令,下面所有命令都要换成 `python -m proxycheck.cli ...` 来跑。如果你跑了 `pip install .`,才能直接用 `proxycheck` 这个简写命令。
 
 ```bash
 proxycheck --host 1.2.3.4 --port 8080
